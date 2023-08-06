@@ -4,70 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba7aa55f-7ee9-412a-9d77-59c6818d2ddf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lombok.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/read.me" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/BokuMoneyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/AccountLockingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/AwaitAccountLockingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/UsersWithdrawalState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/Withdrawal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/WithdrawalId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/WithdrawalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/WithdrawalServiceStub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/WithdrawalState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/configuration/AccountsRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/configuration/ApplicationConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/controllers/ExceptionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/controllers/SupportController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/controllers/WithdrawController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/CheckStateOfOutsideTransactionFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/MoveMoneyFromAccountToInsideTransactionFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/MoveMoneyFromAccountToOutsideTransactionFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/MoveMoneyFromInsideTransactionToDestinationAccountFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/SendMoneyFromOutsideTransactionToDestinationFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/TransactionView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/exceptions/AccountNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/exceptions/NotEnoughMoneyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/income/InsideWithdraw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/income/OutsideWithdraw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/AccountsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/InsideTransactionHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/InsideTransactionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/OutsideTransactionHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/OutsideTransactionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/records/AccountRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/records/InsideTransactionRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/records/InsideTransactionState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/records/OutsideTransactionRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/records/OutsideTransactionState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/trackers/IncomeTransactionTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/trackers/OutsideTransactionTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/validation/DuplicateRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/validation/RequestIdDuplicateCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/validation/WithdrawValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/AwaitAccountLockingServiceIntegrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/AwaitAccountLockingServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/flows/CheckStateOfOutsideTransactionFlowTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/flows/MoveMoneyFromAccountToInsideTransactionFlowTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/flows/MoveMoneyFromAccountToOutsideTransactionFlowTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/flows/MoveMoneyFromInsideTransactionToDestinationAccountFlowTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/flows/SendMoneyFromOutsideTransactionToDestinationFlowTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/repository/InsideTransactionHelperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/trackers/IncomeTransactionTrackerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/trackers/OutsideTransactionTrackerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+    <list default="true" id="ba7aa55f-7ee9-412a-9d77-59c6818d2ddf" name="Changes" comment="small improvements.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,25 +31,27 @@
   </component>
   <component name="ProjectId" id="2TYtVJkFjbjWYMPRgUJUBtJXAee" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.my.company.service.processors" />
@@ -240,6 +181,31 @@
       <option name="presentableId" value="Default" />
       <updated>1691231863805</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit for task">
+      <option name="closed" value="true" />
+      <created>1691338653880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691338653880</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second">
+      <option name="closed" value="true" />
+      <created>1691338683831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691338683831</updated>
+    </task>
+    <task id="LOCAL-00003" summary="small improvements.">
+      <option name="closed" value="true" />
+      <created>1691338799521</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691338799521</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,6 +218,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit for task" />
+    <MESSAGE value="second" />
+    <MESSAGE value="small improvements." />
+    <option name="LAST_COMMIT_MESSAGE" value="small improvements." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
