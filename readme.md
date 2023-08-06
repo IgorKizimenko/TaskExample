@@ -12,7 +12,7 @@ Because of that I allow myself (maybe wrongly) a few simplifications:
 That basically mean what we should have balancing router(or service) which should have sharding function depend on account id.
 If it's not the case, all income requests should be redirected, but this is not optimal (because you're wasting resources of 2 instances of services on that for one request).
 
-Flow (happy case), in few words is:
+## Flow (happy case), in few words is:
     -2. Get request
     -1. ssl termination, auth.
      0. route to right node which is responsible for this account(account range)
@@ -36,7 +36,9 @@ TransactionalScopes:
 2. mark transaction as complete stage1 + add qty to account2  (state still IN_PROGRESS)
 3. mark transaction as complete stage2 + release the blocked amount or submit it. (after, state = COMPLETE)
 
-## Gray area: WithdrawalServiceStub does not persist it's state. In case of kill-switch it state will be lost and transaction will have undefined state. Need some reconcilation proccess for that. (out of solution, because this basically mean that I should change the task)
+## Gray area: 
+WithdrawalServiceStub does not persist it's state. In case of kill-switch it state will be lost and transaction will have inconsistency in state. 
+
 ## Notices:
 1: No read/write API splitting because tracking is trivial.
 2: Distributed locks system also was banned because it will need at least 2 services
