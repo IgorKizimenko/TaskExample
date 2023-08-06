@@ -5,7 +5,7 @@ Main problem here is what we are trying to implement in one service close-to-pro
 Because of that I allow myself (maybe wrongly) a few simplifications:
 1. It's a valid scalable solution, but communication between nodes is Db. In "regular world scenario" it would be a mq or rest solution.
 2. I assume what then request come to controller, I'm responsible for this outcome account and no one else does not.
-That basically mean what we should have balansing router(or service) which should have sharding function depend on account id.
+That basically mean what we should have balancing router(or service) which should have sharding function depend on account id.
 If it's not the case, all income requests should be redirected, but this is not optimal (because you're wasting resources of 2 instances of services on that for one request).
 
 Solution, happy case, in few words is:

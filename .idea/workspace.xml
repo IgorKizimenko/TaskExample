@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba7aa55f-7ee9-412a-9d77-59c6818d2ddf" name="Changes" comment="small improvements.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-    </list>
+    <list default="true" id="ba7aa55f-7ee9-412a-9d77-59c6818d2ddf" name="Changes" comment="fix typos." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691338799521</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix typos.">
+      <option name="closed" value="true" />
+      <created>1691339889979</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691339889979</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,7 +228,8 @@
     <MESSAGE value="first commit for task" />
     <MESSAGE value="second" />
     <MESSAGE value="small improvements." />
-    <option name="LAST_COMMIT_MESSAGE" value="small improvements." />
+    <MESSAGE value="fix typos." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix typos." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
