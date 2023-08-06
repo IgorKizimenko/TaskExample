@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba7aa55f-7ee9-412a-9d77-59c6818d2ddf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lombok.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read.me" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/BokuMoneyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/AccountLockingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/AwaitAccountLockingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/UsersWithdrawalState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/Withdrawal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/WithdrawalId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/WithdrawalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/WithdrawalServiceStub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/WithdrawalState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/configuration/AccountsRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/configuration/ApplicationConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/controllers/ExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/controllers/SupportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/controllers/WithdrawController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/CheckStateOfOutsideTransactionFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/MoveMoneyFromAccountToInsideTransactionFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/MoveMoneyFromAccountToOutsideTransactionFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/MoveMoneyFromInsideTransactionToDestinationAccountFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/SendMoneyFromOutsideTransactionToDestinationFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/TransactionView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/exceptions/AccountNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/exceptions/NotEnoughMoneyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/income/InsideWithdraw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/flows/income/OutsideWithdraw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/AccountsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/InsideTransactionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/InsideTransactionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/OutsideTransactionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/OutsideTransactionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/records/AccountRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/records/InsideTransactionRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/records/InsideTransactionState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/records/OutsideTransactionRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/repository/records/OutsideTransactionState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/trackers/IncomeTransactionTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/trackers/OutsideTransactionTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/validation/DuplicateRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/validation/RequestIdDuplicateCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/my/company/service/validation/WithdrawValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/AwaitAccountLockingServiceIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/AwaitAccountLockingServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/flows/CheckStateOfOutsideTransactionFlowTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/flows/MoveMoneyFromAccountToInsideTransactionFlowTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/flows/MoveMoneyFromAccountToOutsideTransactionFlowTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/flows/MoveMoneyFromInsideTransactionToDestinationAccountFlowTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/flows/SendMoneyFromOutsideTransactionToDestinationFlowTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/repository/InsideTransactionHelperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/trackers/IncomeTransactionTrackerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/my/company/service/trackers/OutsideTransactionTrackerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2TYtVJkFjbjWYMPRgUJUBtJXAee" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.my.company.service.processors" />
+      <recent name="org.my.company.service.repository.records" />
+      <recent name="org.my.company.service" />
+      <recent name="org.my.company.service.controllers" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.my.company.service.processors" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="org.my.company.service" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.my.company.service" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.my.company.service.trackers" />
+      <recent name="org.my.company.service" />
+      <recent name="org.my.company.service.repository" />
+      <recent name="org.my.company.service.flows" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.my.company.service.repository" />
+      <recent name="org.my.company.service" />
+      <recent name="org.my.company.service.processors" />
+      <recent name="org.my.company.service.repository.records" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in TaskForBokuMoney">
+    <configuration name="All in TaskForBokuMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskForBokuMoney" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OutsideTransactionTrackerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskForBokuMoney" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.my.company.service.trackers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.my.company.service.trackers" />
+      <option name="MAIN_CLASS_NAME" value="org.my.company.service.trackers.OutsideTransactionTrackerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OutsideTransactionTrackerTest.checkOutcomeStateTransaction2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskForBokuMoney" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.my.company.service.trackers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.my.company.service.trackers" />
+      <option name="MAIN_CLASS_NAME" value="org.my.company.service.trackers.OutsideTransactionTrackerTest" />
+      <option name="METHOD_NAME" value="checkOutcomeStateTransaction2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendMoneyFromOutsideTransactionToDestinationFlowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskForBokuMoney" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.my.company.service.flows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.my.company.service.flows" />
+      <option name="MAIN_CLASS_NAME" value="org.my.company.service.flows.SendMoneyFromOutsideTransactionToDestinationFlowTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendMoneyFromOutsideTransactionToDestinationFlowTest.process" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskForBokuMoney" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.my.company.service.flows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.my.company.service.flows" />
+      <option name="MAIN_CLASS_NAME" value="org.my.company.service.flows.SendMoneyFromOutsideTransactionToDestinationFlowTest" />
+      <option name="METHOD_NAME" value="process" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in TaskForBokuMoney" />
+      <item itemvalue="JUnit.SendMoneyFromOutsideTransactionToDestinationFlowTest" />
+      <item itemvalue="JUnit.SendMoneyFromOutsideTransactionToDestinationFlowTest.process" />
+      <item itemvalue="JUnit.OutsideTransactionTrackerTest" />
+      <item itemvalue="JUnit.OutsideTransactionTrackerTest.checkOutcomeStateTransaction2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in TaskForBokuMoney" />
+        <item itemvalue="JUnit.SendMoneyFromOutsideTransactionToDestinationFlowTest.process" />
+        <item itemvalue="JUnit.SendMoneyFromOutsideTransactionToDestinationFlowTest" />
+        <item itemvalue="JUnit.OutsideTransactionTrackerTest" />
+        <item itemvalue="JUnit.OutsideTransactionTrackerTest.checkOutcomeStateTransaction2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba7aa55f-7ee9-412a-9d77-59c6818d2ddf" name="Changes" comment="" />
+      <created>1691231863805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691231863805</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/my/company/service/flows/CheckStateOfOutsideTransactionFlowTest.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/my/company/service/flows/MoveMoneyFromAccountToInsideTransactionFlowTest.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/my/company/service/controllers/ExceptionController.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/my/company/service/controllers/ExceptionController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/my/company/service/flows/MoveMoneyFromInsideTransactionToDestinationAccountFlowTest.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/my/company/service/flows/MoveMoneyFromInsideTransactionToDestinationAccountFlowTest.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/my/company/service/AwaitAccountLockingServiceIntegrationTest.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/my/company/service/trackers/IncomeTransactionTrackerTest.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/my/company/service/trackers/OutsideTransactionTrackerTest.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/my/company/service/flows/SendMoneyFromOutsideTransactionToDestinationFlowTest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
