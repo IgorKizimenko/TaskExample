@@ -1,3 +1,5 @@
+![diagram](diagram.png)
+
 Solution notes ( https://www.figma.com/file/MxgHbacWT3LHhxkYteM7gU/Untitled?type=whiteboard&node-id=0%3A1&t=G0gwagoKEzowqMt4-1 ):
 I'm trying to fit in "1 day to develop" solution and I choose not optimal, but less code approaches.
 
